@@ -1,0 +1,260 @@
+html,body,div,p,span,h1,h2,h3,h4,p,a,em,font,img,strong,dl,dt,dd,ul,li {
+	margin: 0;
+	padding: 0;
+	font-family: \5b8b\4f53
+}
+
+html,body {
+	height: 100%;
+	font-size: 12px
+}
+
+.acts_reg {
+	width: 328px;
+	height: 443px;
+	padding: 16px 16px 0;
+	left: 50%;
+	margin-left: -180px;
+	position: fixed;
+	top: 10%;
+	z-index: 8888;
+	background: url(http://image.1633.com/market/images/yun/reg_win_bg.png) no-repeat
+}
+
+.acts_reg_close {
+	background: url(http://image.1633.com/market/images/yun/reg_win_close.png) no-repeat;
+	width: 30px;
+	height: 31px;
+	margin-left: 298px;
+	cursor: pointer
+}
+
+.acts_reg_h1 {
+	height: 50px;
+	text-align: center;
+	color: #ff764c;
+	font-size: 24px;
+	font-family: "Microsoft YaHei"
+}
+
+.acts_reg_qiehuan {
+	height: 50px;
+	padding: 0 14px;
+	text-align: right
+}
+
+.acts_reg_qiehuan span {
+	cursor: pointer
+}
+
+.acts_reg_main {
+	padding: 0 19px
+}
+
+.acts_reg_main .item-ifo {
+	width: 252px;
+	height: 46px;
+	position: relative;
+	margin-left: 19px;
+	>margin-left: 9.5px;
+	margin-bottom: 15px
+}
+
+.acts_reg_main .text1 {
+	width: 197px;
+	height: 20px;
+	text-align: left;
+	padding: 13px 10px 13px 45px;
+	font-size: 14px;
+	outline: 0;
+	border: 0
+}
+
+.acts_reg_main .text1_phone1 {
+	background: url(http://image.1633.com/market/images/yun/reg_win_phone1.png) no-repeat
+}
+
+.acts_reg_main .text1_phone2 {
+	background: url(http://image.1633.com/market/images/yun/reg_win_phone2.png) no-repeat
+}
+
+.acts_reg_main .text1_pw {
+	background: url(http://image.1633.com/market/images/yun/reg_win_pw.png) no-repeat
+}
+
+.acts_reg_main .text1_yzm {
+	background: url(http://image.1633.com/market/images/yun/reg_win_yzm.png) no-repeat;
+	float: right;
+	width: 132px;
+	height: 20px;
+	font-size: 14px;
+	font-family: Arial;
+	outline: 0;
+	border: 0;
+	padding: 13px 5px
+}
+
+.acts_reg_main .item-ifo .btn_yzm {
+	border: 1px #ccc solid;
+	background: #fff;
+	outline: 0;
+	height: 46px;
+	float: left;
+	width: 98px;
+	cursor: pointer
+}
+
+.acts_reg_main .item-ifo .i-txt2 {
+	position: absolute;
+	left: 45px;
+	top: 13px;
+	font-style: normal;
+	font-size: 16px;
+	color: #999;
+	font-family: \5FAE\8F6F\96C5\9ED1
+}
+
+.acts_reg_main .item-ifo .i-txt-yzm {
+	left: 120px
+}
+
+.acts_reg_main .acts_reg_error {
+	height: 16px;
+	line-height: 16px;
+	overflow: hidden;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: #f00;
+	margin-bottom: 15px
+}
+
+.acts_reg_main .btn_denglu {
+	background: url(http://image.1633.com/market/images/yun/reg_win_denglu.png) no-repeat;
+	width: 252px;
+	height: 44px;
+	outline: 0;
+	border: 0;
+	color: #fff;
+	font-size: 16px;
+	font-family: "Microsoft YaHei";
+	cursor: pointer
+}
+
+.acts_reg_main .btn_denglu_wx {
+	background: #619619 url(http://lsf.1633.com/images/index/weixin.png) no-repeat scroll 70px 10px;
+	border: medium none;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 400;
+	height: 40px;
+	outline: medium none;
+	text-align: center;
+	width: 100%
+}
+
+.acts_reg_main .yanzhengma {
+	float: left
+}
+
+.acts_reg_main .yanzhengma img {
+	width: 100px;
+	height: 46px
+}
+
+.acts_reg_sf {
+	width: 328px;
+	height: 344px;
+	padding: 16px 16px 0;
+	left: 50%;
+	margin-left: -180px;
+	position: fixed;
+	top: 10%;
+	z-index: 8888;
+	background: url(http://image.1633.com/market/images/yun/reg_win_bg_a.png) no-repeat
+}
+
+.acts_reg_sf h1 {
+	height: 50px;
+	color: #ff764c;
+	font-size: 24px;
+	font-family: "Microsoft YaHei";
+	font-weight: 400;
+	padding: 0 4px
+}
+
+.acts_reg_sf p {
+	line-height: 26px;
+	height: 26px;
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+	padding: 0 4px;
+	color: #666
+}
+
+.acts_reg_sf .hur1 {
+	height: 86px;
+	margin: 25px 6px 25px 7px
+}
+
+.acts_reg_sf .hur1 .hur1a {
+	width: 120px;
+	height: 66px;
+	float: left;
+	text-align: center;
+	padding: 10px 6px;
+	cursor: pointer
+}
+
+.acts_reg_sf .hur1 .hur1a p {
+	line-height: 33px;
+	height: 33px;
+	overflow: hidden;
+	color: #fff;
+	font-size: 12px
+}
+
+.acts_reg_sf .hur1 .hur1a p b {
+	font-size: 14px;
+	font-weight: bold
+}
+
+.acts_reg_sf .hur1 .hur1b {
+	width: 162px;
+	height: 66px;
+	float: right;
+	text-align: center;
+	padding: 10px 6px;
+	cursor: pointer
+}
+
+.acts_reg_sf .hur1 .hur1b p {
+	line-height: 33px;
+	height: 33px;
+	overflow: hidden;
+	color: #fff;
+	font-size: 12px
+}
+
+.acts_reg_sf .hur1 .hur1b p b {
+	font-size: 14px;
+	font-weight: bold
+}
+
+.screen {
+	background: #000;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	_position: absolute;
+	_top: expression(eval(document.documentElement.scrollTop));
+	opacity: .5;
+	filter: alpha(opacity=50);
+	-moz-opacity: .5;
+	overflow: hidden;
+	z-index: 7778
+}
